@@ -1,0 +1,136 @@
+.aside-bg {
+    background-color: #F9FAFB;
+    padding: 32px;
+    height: 100vh;
+    position: relative;
+}
+
+.aside-tag-cnt {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+.icon-box {
+    border: 1px solid #DFDFDF;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.company-year {
+    position: absolute;
+    bottom: 0;
+}
+
+.acount-cnt {
+    padding: 32px;
+}
+
+.need-help-cnt {
+    text-align: end;
+}
+
+.need-help-cnt span {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #DFDFDF;
+    border-radius: 10px;
+}
+
+.create-account-cnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-cnt {
+    max-width: 400px;
+}
+
+.icon-box-form {
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: #2A75AE;
+    color: #fff;
+}
+
+.form-heading {
+    text-align: center;
+
+}
+
+.form-input-cnt div {
+    margin-bottom: 10px;
+}
+
+.form-input-cnt input {
+    width: 100%;
+    background: #FCFCFC;
+    border-radius: 6px;
+    border: 1px solid #DFDFDF;
+    padding: 5px 5px 5px 36px;
+    outline: none;
+}
+
+.form-input-cnt {
+    position: relative;
+}
+
+.input-icon-person {
+    position: absolute;
+    top: 14%;
+    right: 90%;
+    border-right: 1px solid #DFDFDF;
+    padding: 0px 6px 0px 0px;
+}
+.input-icon-at{
+    position: absolute;
+    top: 50%;
+    right: 90%;
+    border-right: 1px solid #DFDFDF;
+    padding: 0px 6px 0px 0px;
+}
+.input-icon-flag{
+    position: absolute;
+    top: 86%;
+    right: 90%;
+    border-right: 1px solid #DFDFDF;
+    padding: 0px 6px 0px 0px;
+}
+.checkbox-cnt{
+    display: flex;
+    align-items: center;
+    margin: 30px 0px;
+}
+.checkbox-cnt input{
+    margin-right: 10px;
+}
+.privacy-policy{
+    color: #000000;
+}
+.login-text{
+    text-align: center;
+}
+.proceed-btn{
+    width: 100%;
+    border: none;
+    background-color:#2A75AE;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+}
+.proceed-btn i{
+    margin-left: 10px;
+}
+.login-text{
+    margin-top: 20px;
+}
+.login-text a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    margin-left: 10px;
+}

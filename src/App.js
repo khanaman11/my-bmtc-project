@@ -3,7 +3,7 @@ import Aside from './components/aside/Aside'
 
 const App = () => {
   return (
-    <div>
+    <div className='container'>
       <Aside/>
     </div>
   )
