@@ -1,10 +1,10 @@
 import React from 'react'
-import Aside from './components/aside/Aside'
+import Home from './components/Home'
 
 const App = () => {
   return (
     <div className='container'>
-      <Aside/>
+      <Home/>
     </div>
   )
 }
