@@ -1,8 +1,7 @@
 import React, { Fragment } from 'react'
-import "../../src/components/aside/Aside.css"
 import circleWhite from "../assets/icon/circle white.png"
 
-const Otp = () => {
+const Otp = ({activeItemIndex,proceedForm}) => {
   return (
     <Fragment>
       <div className="create-account-cnt">
@@ -22,7 +21,7 @@ const Otp = () => {
           </div>
           <div className="form-footer">
             <p className='login-text'>Didn’t get a code?<a href="/">Resend</a></p>
-            <button className='proceed-btn'>proceed<i className="bi bi-arrow-right"></i></button>
+            <button className='proceed-btn' onClick={()=>proceedForm(activeItemIndex)}>proceed<i className="bi bi-arrow-right"></i></button>
             <p className='login-text'>Incorrect phone number?<a href="/">Change</a></p>
           </div>
         </form>

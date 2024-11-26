@@ -1,5 +1,4 @@
 import React from 'react'
-import "../components/aside/Aside.css"
 
 const CreateProjectBtnSection = () => {
     return (

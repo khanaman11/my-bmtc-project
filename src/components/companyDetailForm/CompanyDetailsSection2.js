@@ -1,11 +1,10 @@
 import React from 'react'
-import "../../src/components/aside/Aside.css"
-import detaisIcon2 from "../assets/icon/detaisIcon2.png"
-import scrollicon4 from "../assets/icon/scroll-icon4.png"
-import scroppIcon1 from "../assets/icon/scroll-icon1 (2).png"
-import scrollIcon3 from "../assets/icon/scroll-icon3 (2).png"
+import detaisIcon2 from "../../assets/icon/detaisIcon2.png"
+import scrollicon4 from "../../assets/icon/scroll-icon4.png"
+import scroppIcon1 from "../../assets/icon/scroll-icon1 (2).png"
+import scrollIcon3 from "../../assets/icon/scroll-icon3 (2).png"
 
-const CompanyDetailsSection2 = () => {
+const CompanyDetailsSection2 = ({handleCompanySteps,compantFormIndex}) => {
     return (
         <div>
             <div className="form-heading">
@@ -74,7 +73,7 @@ const CompanyDetailsSection2 = () => {
 
             <div className='comp-details-btn-cnt'>
                 <button className='Go-back-btn'>Go back</button>
-                <button className='proceed-btn'>Next<i className="bi bi-arrow-right"></i></button>
+                <button className='proceed-btn' onClick={()=>handleCompanySteps(compantFormIndex)}>Next<i className="bi bi-arrow-right"></i></button>
             </div>
         </div>
     )

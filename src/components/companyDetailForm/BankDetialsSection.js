@@ -1,13 +1,12 @@
 import React from 'react'
-import "../../src/components/aside/Aside.css"
-import detaisIcon2 from "../assets/icon/detaisIcon2.png"
-import scrollicon4 from "../assets/icon/scroll-icon4.png"
-import scrollicon5 from "../assets/icon/scroll-icon5.png"
-import scroppIcon1 from "../assets/icon/scroll-icon1 (2).png";
-import fileChooses from "../assets/icon/file chooses img.png";
+import detaisIcon2 from "../../assets/icon/detaisIcon2.png"
+import scrollicon4 from "../../assets/icon/scroll-icon4.png"
+import scrollicon5 from "../../assets/icon/scroll-icon5.png"
+import scroppIcon1 from "../../assets/icon/scroll-icon1 (2).png";
+import fileChooses from "../../assets/icon/file chooses img.png";
 
 
-const BankDetialsSection = () => {
+const BankDetialsSection = ({activeItemIndex,proceedForm}) => {
     return (
         <div>
             <div className="form-heading">
@@ -175,7 +174,7 @@ const BankDetialsSection = () => {
             </div>
             <div className='comp-details-btn-cnt'>
                 <button className='Go-back-btn'>Go back</button>
-                <button className='proceed-btn'>Next<i className="bi bi-arrow-right"></i></button>
+                <button className='proceed-btn' onClick={()=>proceedForm(activeItemIndex)}>Submit<i className="bi bi-arrow-right"></i></button>
             </div>
         </div>
     )

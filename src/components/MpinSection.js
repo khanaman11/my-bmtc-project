@@ -1,8 +1,7 @@
 import React, { Fragment } from 'react'
 import MpinWhite from "../assets/icon/mpinwhite.png"
-import "../../src/components/aside/Aside.css"
 
-const MpinSection = () => {
+const MpinSection = ({activeItemIndex,proceedForm}) => {
     return (
         <Fragment>
             <div className="create-account-cnt">
@@ -19,7 +18,7 @@ const MpinSection = () => {
                         <input type="text" />
                     </div>
                     <div className="form-footer">
-                        <button className='proceed-btn mt-3'>proceed<i className="bi bi-arrow-right"></i></button>
+                        <button className='proceed-btn mt-3' onClick={()=>proceedForm(activeItemIndex)}>proceed<i className="bi bi-arrow-right"></i></button>
                     </div>
                 </form>
 

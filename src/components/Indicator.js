@@ -2,7 +2,7 @@ import React from 'react'
 
 const Indicator = ({activeItemIndex}) => {
   return (
-    <div className='indicatorCnt d-none'>
+    <div className='indicatorCnt'>
       <ul className='indicatorWrapper '>
           <li className={`indicatorItem ${activeItemIndex===0? "active":""}`}></li>
           <li className={`indicatorItem ${activeItemIndex===1? "active":""}`}></li>

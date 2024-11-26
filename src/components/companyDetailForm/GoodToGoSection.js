@@ -1,8 +1,7 @@
 import React, { Fragment } from 'react'
-import welcomeImg from "../assets/icon/welcom white img.png"
-import finishBtn from "../assets/icon/Finish up 🚀.png"
-import finishVideo from "../assets/video/video1.mp4"
-import "../../src/components/aside/Aside.css"
+import welcomeImg from "../../assets/icon/welcom white img.png"
+import finishBtn from "../../assets/icon/Finish up 🚀.png"
+import finishVideo from "../../assets/video/video1.mp4"
 
 const GoodToGoSection = () => {
     return (

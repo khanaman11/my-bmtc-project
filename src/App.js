@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className='container'>
       <Home/>
-      <ProjectSectionAside/>
+      {/* <ProjectSectionAside/> */}
     </div>
   )
 }

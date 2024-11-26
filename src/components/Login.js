@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import MyImage from "../assets/image/India (IN).svg";
 import whiteUser from "../assets/icon/white user.png";
 
-const Login = () => {
+const Login = ({activeItemIndex,proceedForm}) => {
     return (
         <Fragment>
             <div className="create-account-cnt">
@@ -34,7 +34,7 @@ const Login = () => {
                             <input type="checkbox" />
                             <label htmlFor="">I agree to the <span className='privacy-policy'>Terms & Service & Privacy Policy</span></label><br />
                         </p>
-                        <button className='proceed-btn'>proceed<i className="bi bi-arrow-right"></i></button>
+                        <button className='proceed-btn' onClick={()=>proceedForm(activeItemIndex)}>proceed<i className="bi bi-arrow-right"></i></button>
                         <p className='login-text'>Already have an account?<a href="/">Log in</a></p>
                     </div>
                 </form>
