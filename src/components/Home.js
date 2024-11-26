@@ -26,7 +26,7 @@ const Home = () => {
                         <button className='go-back-btn' onClick={()=>goBack(0)}><i className="bi bi-arrow-left"></i>Go back</button>:null
                     }
                     
-                    <div className='needHelpWrapper'><a href='#'>Need help?</a></div>
+                    <div className='needHelpWrapper'><a href='/'>Need help?</a></div>
                 </div>
                 {activeItemIndex === 0 || activeItemIndex === 1 || activeItemIndex === 2 ?
                 <>
