@@ -9,7 +9,6 @@ const CompanyDetail = ({activeItemIndex,proceedForm}) => {
     const handleCompanySteps =(index)=>{
         setCompantFormIndex(index + 1)
     }
-    console.log(activeItemIndex)
     switch(compantFormIndex) {
         case 0:   return <CompanyDetailsSection handleCompanySteps={handleCompanySteps} compantFormIndex={compantFormIndex}/>;
         case 1:   return <CompanyDetailsSection2 handleCompanySteps={handleCompanySteps} compantFormIndex={compantFormIndex}/>;

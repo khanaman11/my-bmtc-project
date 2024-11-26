@@ -1,12 +1,7 @@
 import React, {  } from 'react'
 import Login from './Login'
 import Otp from './Otp'
-import Indicator from './Indicator'
 import MpinSection from './MpinSection'
-import CompanyDetailsSection from './companyDetailForm/CompanyDetailsSection'
-import CompanyDetailsSection2 from './companyDetailForm/CompanyDetailsSection2'
-import BankDetialsSection from './companyDetailForm/BankDetialsSection'
-import GoodToGoSection from './companyDetailForm/GoodToGoSection'
 
 const FormStepsWithIndicator = ({ activeItemIndex,proceedForm }) => {
     switch(activeItemIndex){

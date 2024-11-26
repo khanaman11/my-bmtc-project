@@ -1,6 +1,5 @@
 import React from 'react'
 import Home from './components/Home'
-import ProjectSectionAside from './components/ProjectSectionAside'
 
 
 const App = () => {

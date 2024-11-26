@@ -77,7 +77,7 @@ const BankDetialsSection = ({activeItemIndex,proceedForm}) => {
                     <div className="col-6">
                         <div className='bank-fileUpload-cnt'>
                             <div>
-                                <label for="file-input" class="custom-file-label">
+                                <label htmlFor="file-input" className="custom-file-label">
                                     <img src={fileChooses} alt="Upload Logo" />
                                     Choose File
                                 </label>
@@ -96,7 +96,7 @@ const BankDetialsSection = ({activeItemIndex,proceedForm}) => {
                     <div className="col-6">
                         <div className='bank-fileUpload-cnt'>
                             <div>
-                                <label for="file-input" class="custom-file-label">
+                                <label htmlFor="file-input" className="custom-file-label">
                                     <img src={fileChooses} alt="Upload Logo" />
                                     Choose File
                                 </label>
@@ -115,7 +115,7 @@ const BankDetialsSection = ({activeItemIndex,proceedForm}) => {
                     <div className="col-6">
                         <div className='bank-fileUpload-cnt'>
                             <div>
-                                <label for="file-input" class="custom-file-label">
+                                <label htmlFor="file-input" className="custom-file-label">
                                     <img src={fileChooses} alt="Upload Logo" />
                                     Choose File
                                 </label>
@@ -134,7 +134,7 @@ const BankDetialsSection = ({activeItemIndex,proceedForm}) => {
                     <div className="col-6">
                         <div className='bank-fileUpload-cnt'>
                             <div>
-                                <label for="file-input" class="custom-file-label">
+                                <label htmlFor="file-input" className="custom-file-label">
                                     <img src={fileChooses} alt="Upload Logo" />
                                     Choose File
                                 </label>
@@ -153,7 +153,7 @@ const BankDetialsSection = ({activeItemIndex,proceedForm}) => {
                     <div className="col-6">
                         <div className='bank-fileUpload-cnt'>
                             <div>
-                                <label for="file-input" class="custom-file-label">
+                                <label htmlFor="file-input" className="custom-file-label">
                                     <img src={fileChooses} alt="Upload Logo" />
                                     Choose File
                                 </label>

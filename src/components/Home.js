@@ -4,7 +4,6 @@ import "../../src/components/aside/Aside.css"
 import FormStepsWithIndicator from './FormStepsWithIndicator'
 import CompanyDetail from './companyDetailForm/CompanyDetail'
 import Indicator from './Indicator'
-import CompanyDetailsSection2 from './companyDetailForm/CompanyDetailsSection2'
 import GoodToGoSection from './companyDetailForm/GoodToGoSection'
 
 const Home = () => {

@@ -15,14 +15,14 @@ const GoodToGoSection = () => {
                     </div>
                     <div className='form-input-mpin-cnt'>
                         <div className="video-container">
-                            <video class="object-fit-cover" autoplay muted loop>
+                            <video className="object-fit-cover" autoPlay muted loop>
                                 <source src={finishVideo} type="video/mp4" />
                             </video>
                             <div className="play-icon"></div>
                         </div>
                     </div>
                     <div className="finish-btn-cnt">
-                        <button className='finish-btn '> <img src={finishBtn} alt="" /></button>
+                        <button type='button' className='finish-btn '> <img src={finishBtn} alt="" /></button>
                     </div>
                 </form>
 
