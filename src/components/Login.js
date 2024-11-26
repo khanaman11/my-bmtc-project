@@ -1,16 +1,14 @@
 import React, { Fragment } from 'react'
-import MyImage from "../assets/image/India (IN).svg"; // Adjust the path as needed
+import MyImage from "../assets/image/India (IN).svg";
+import whiteUser from "../assets/icon/white user.png";
 
 const Login = () => {
     return (
         <Fragment>
-            <div className='need-help-cnt'>
-                <span>Need help?</span>
-            </div>
             <div className="create-account-cnt">
                 <form className="form-cnt">
                     <div className="form-heading">
-                        <span className='icon-box-form'><i className="bi bi-person"></i></span>
+                        <div className='commom-header-icon'><span className='icon-box-form'><img src={whiteUser} alt="" /></span></div>
                         <h1 className='mt-3'>Create an account</h1>
                         <p>Provide your full name, email and phone number</p>
                     </div>
